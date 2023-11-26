@@ -9,6 +9,7 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
 }
 
+/* contactos */
 
 .contactos{
     display: flex;
@@ -23,6 +24,8 @@ font-family: 'Roboto', sans-serif; */
     width: 50px;
     height: 50px;
 }
+
+/* status */
 
 .status{
     display: flex;
@@ -45,8 +48,6 @@ font-family: 'Roboto', sans-serif; */
 
 h3{
     font-family: 'Open Sans', sans-serif;
-
-
 }
 
 .pstatus{
@@ -61,7 +62,22 @@ i{
     color: #9b9e99;
 }
 
+/* button */
 
+.boton{
+    height: 80px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color: #A491D2;
+    border-style: none;
+    color: white;
+}
 
 
 
