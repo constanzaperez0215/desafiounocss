@@ -15,14 +15,18 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
     flex-direction: column;
     width: 20%;
+    
    
     ;
 }
 
 .contactos img{
-    clip-path: circle(50%);
-    width: 50px;
-    height: 50px;
+    border-radius: 50%;
+    border-color: #BEC1BB;
+    border-style: groove;
+    width: 40px;
+    height: 40px;
+    
 }
 
 /* status */
@@ -48,6 +52,7 @@ font-family: 'Roboto', sans-serif; */
 
 h3{
     font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
 
 .pstatus{
@@ -77,9 +82,30 @@ i{
     background-color: #A491D2;
     border-style: none;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
+.personas{
+    display: flex;
+    column-gap: 13px;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #BEC1BB
+}
 
+.imgcontactos{
+    margin-left: 10px;
+}
+
+.ppersonas{
+    font-size: 9px;
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 
