@@ -1,0 +1,102 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+}
+
+.body{
+    display: flex;
+}
+
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+   
+    ;
+}
+
+.contactos img{
+    clip-path: circle(50%);
+    width: 50px;
+    height: 50px;
+}
+
+.status{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    column-gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #BEC1BB
+}
+
+.font-awesome{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.pstatus{
+    font-size:10px ;
+    font-family: 'Open Sans', sans-serif;
+    color: #BEC1BB;
+}
+
+i{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #9b9e99;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nuevochat{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.imgprincipal{
+    width: 200px
+}
+
+.titulochat{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+}
+
+.pchat{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
