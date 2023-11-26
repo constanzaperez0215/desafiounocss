@@ -15,14 +15,14 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
     flex-direction: column;
     width: 20%;
-    
-   
-    ;
+    border-right: groove;
+    border-color: rgb(229, 228, 226, 0.5);
+    border-width: 3px;
 }
 
 .contactos img{
     border-radius: 50%;
-    border-color: #BEC1BB;
+    border-color: rgb(229, 228, 226, 0.5);
     border-style: groove;
     width: 40px;
     height: 40px;
@@ -36,12 +36,11 @@ font-family: 'Roboto', sans-serif; */
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 60px;
     column-gap: 10px;
     font-family: 'Roboto', sans-serif;
-    border-style: groove;
-    border-width: 2px;
-    border-color: #BEC1BB
+    border-bottom-style: groove;
+    border-color: rgb(229, 228, 226, 0.5);
 }
 
 .font-awesome{
@@ -53,6 +52,7 @@ font-family: 'Roboto', sans-serif; */
 h3{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
+    font-weight: 400;
 }
 
 .pstatus{
@@ -64,26 +64,39 @@ h3{
 i{
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
-    color: #9b9e99;
+    color: rgba(185, 185, 185, 0.8);
 }
 
 /* button */
 
 .boton{
-    height: 80px;
-   display: flex;
-   justify-content: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    border-bottom-style: groove;
+    border-color: rgb(229, 228, 226, 0.5);
+    border-width: 2px;
+    
+    
 }
 
 .btn{
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 130px;
     background-color: #A491D2;
     border-style: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
+    border-radius: 4px;
     
+}
+
+/* lista de contactos */
+
+.listadecontactos{
+    display: flex;
+    flex-direction: column;
 }
 
 .personas{
@@ -91,11 +104,12 @@ i{
     column-gap: 13px;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 60px;
     font-family: 'Roboto', sans-serif;
-    border-style: groove;
+    border-bottom-style: groove;
+    border-color: rgb(229, 228, 226, 0.5);
     border-width: 2px;
-    border-color: #BEC1BB
+    
 }
 
 .imgcontactos{
@@ -105,6 +119,9 @@ i{
 .ppersonas{
     font-size: 9px;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 3px;
+    color: #616161
+    ;
 }
 
 
@@ -117,8 +134,9 @@ i{
 
 
 
+/* princial */
 
-.nuevochat{
+.principal{
     display: flex;
     flex-direction: column;
     height: 100vh;
